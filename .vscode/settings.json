@@ -10,5 +10,7 @@
     "no-alt-text": false, // MD045
     "blanks-around-headings/blanks-around-headers": false, // MD022
     "heading-increment/header-increment": false // MD001
-  }
+  },
+  // 新しいthemeを作る場合は、この設定にPathを追加する
+  "markdown.marp.themes": ["./marp/themes/test.css"]
 }

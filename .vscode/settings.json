@@ -1,1 +1,14 @@
-{}
+{
+  "markdownlint.config": {
+    "line-length": false, // MD013: 1文の最大文字数をはtextlintと競合するため無効化
+    "no-duplicate-heading": false, // MD024: 見出し文字列の重複を許容
+    "no-trailing-punctuation": false, // MD026: 見出しに.,;:が入ることを許容
+    "no-inline-html": false, // MD033: HTML記述を許容
+    "no-bare-urls": false, // MD034: URLそのままの表記を許容
+    "no-emphasis-as-heading": false, // MD036: 強調表現を見出しとして許容
+    "first-line-heading": false, // MD041
+    "no-alt-text": false, // MD045
+    "blanks-around-headings/blanks-around-headers": false, // MD022
+    "heading-increment/header-increment": false // MD001
+  }
+}

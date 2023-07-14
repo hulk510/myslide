@@ -1,6 +1,6 @@
-# Template Markdown Lint
+# my slide
 
-自分がよく使う設定をテンプレートとして管理していきたいなと思ったので作成
+発表したい資料など、Marp for VSCodeを使っていきたいためmarkdownを管理するリポジトリを作成した。
 
 ## How to use
 

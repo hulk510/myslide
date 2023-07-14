@@ -1,7 +1,7 @@
 {
-  "name": "template-markdown-lint",
+  "name": "myslide",
   "version": "0.1.0",
-  "description": "This is my tamplate for markdown",
+  "description": "Store my slide",
   "devDependencies": {
     "prettier": "2.8.8",
     "prettier-plugin-md-nocjsp": "^1.5.1",
@@ -14,8 +14,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "linter": "textlint ./docs/**/*.md",
-    "linter:fix": "textlint --fix ./docs/*md",
+    "linter": "textlint ./slides/**/*.md",
+    "linter:fix": "textlint --fix ./slides/*md",
     "format": "prettier --write ."
   },
   "author": "hulk510",

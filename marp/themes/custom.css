@@ -1,0 +1,9 @@
+/* @theme custom */
+
+@import "default";
+
+/* Custom CSS */
+
+section.center {
+  text-align: center;
+}

@@ -13,5 +13,10 @@
     "single-title": false
   },
   // 新しいthemeを作る場合は、この設定にPathを追加する
-  "markdown.marp.themes": ["./marp/themes/custom.css"]
+  "markdown.marp.themes": ["./marp/themes/custom.css"],
+
+  // markdownにコピーペーストした時に、画像をコピーする場所を指定する
+  "markdown.copyFiles.destination": {
+    "/slides/**/*": "/images/${documentBaseName}/"
+  }
 }

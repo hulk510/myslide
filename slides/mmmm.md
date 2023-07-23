@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom
-backgroundColor: "rgba(180, 200, 255, 0.8)"
+backgroundColor: "rgb(50, 50, 50)"
 color: "#ffffff"
 footer: "@hulk510"
 ---
@@ -62,7 +62,9 @@ footer: "@hulk510"
 
 ---
 
-<!-- _header: 孤独 -->
+<!--
+_header: 孤独
+ -->
 
 > 天才は常に孤立して生まれ、
 > 孤独の運命を持つ

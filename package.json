@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Store my slide",
   "devDependencies": {
-    "prettier": "2.8.8",
+    "prettier": "3.4.2",
     "prettier-plugin-md-nocjsp": "^1.5.1",
     "textlint": "^13.3.3",
     "textlint-filter-rule-allowlist": "^4.0.0",

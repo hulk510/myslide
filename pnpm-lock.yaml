@@ -9,25 +9,25 @@ devDependencies:
     specifier: 2.8.8
     version: 2.8.8
   prettier-plugin-md-nocjsp:
-    specifier: ^1.5.1
+    specifier: 1.5.1
     version: 1.5.1(prettier@2.8.8)
   textlint:
-    specifier: ^13.3.3
+    specifier: 13.3.3
     version: 13.3.3
   textlint-filter-rule-allowlist:
-    specifier: ^4.0.0
+    specifier: 4.0.0
     version: 4.0.0(textlint@13.3.3)
   textlint-filter-rule-comments:
-    specifier: ^1.2.2
+    specifier: 1.2.2
     version: 1.2.2(textlint@13.3.3)
   textlint-rule-no-todo:
-    specifier: ^2.0.1
+    specifier: 2.0.1
     version: 2.0.1
   textlint-rule-preset-ja-technical-writing:
-    specifier: ^7.0.0
+    specifier: 7.0.0
     version: 7.0.0(textlint@13.3.3)
   textlint-rule-spellcheck-tech-word:
-    specifier: ^5.0.0
+    specifier: 5.0.0
     version: 5.0.0(textlint@13.3.3)
 
 packages:
@@ -785,6 +785,7 @@ packages:
 
   /glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -879,6 +880,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -900,6 +902,7 @@ packages:
   /is-accessor-descriptor@1.0.0:
     resolution: {integrity: sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please upgrade to v1.0.1
     dependencies:
       kind-of: 6.0.3
     dev: true
@@ -964,6 +967,7 @@ packages:
   /is-data-descriptor@1.0.0:
     resolution: {integrity: sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please upgrade to v1.0.1
     dependencies:
       kind-of: 6.0.3
     dev: true
@@ -1787,6 +1791,7 @@ packages:
 
   /rimraf@2.6.3:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
@@ -2335,6 +2340,7 @@ packages:
 
   /try-resolve@1.0.1:
     resolution: {integrity: sha512-yHeaPjCBzVaXwWl5IMUapTaTC2rn/eBYg2fsG2L+CvJd+ttFbk0ylDnpTO3wVhosmE1tQEvcebbBeKLCwScQSQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: true
 
   /type-check@0.4.0:
